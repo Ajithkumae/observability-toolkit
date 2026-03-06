@@ -30,7 +30,7 @@ export const blackColor = '#000000'
 export const OrangeColor = '#FE9003'
 export const BlueColor = '#2874f0'
 export const greenColor='#008000'	
-
+export const appheadColour = '#395774'
 export const textColorLight = '#959595'
 export const textColor = '#555555'
 export const textColorDark = '#000000'

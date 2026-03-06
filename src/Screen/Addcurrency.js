@@ -25,7 +25,7 @@ class Addcurrency extends Component {
 
     }
 
-    async UNSAFE_componentWillMount() {
+    async componentDidMount() {
 
 
         let url = "https://data.messari.io/api/v1/assets"
@@ -77,7 +77,7 @@ class Addcurrency extends Component {
         }
     }
     _preditivesearch=(text)=>{
-        debugger
+        
         if(this.state.search != ''){
         this.setState({showshearch:true})
       this.state.json1= this.props.Data.data.filter(el => el.name.includes(text))
